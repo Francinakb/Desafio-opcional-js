@@ -4,7 +4,7 @@
 let palabraEsp
 let test = ""   //indica que es un valor que no esta predeterminado pero que va a llevar una string
 do {
-    palabraEsp = prompt("Ingrese un color en español")
+    palabraEsp = prompt("Ingrese un color en español").toLowerCase()
 } while (palabraEsp == test)
 
 switch (palabraEsp) {
